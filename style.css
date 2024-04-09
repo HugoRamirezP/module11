@@ -1,0 +1,156 @@
+/* menu */
+
+#menu{
+    position: sticky;
+    top: 0;
+    padding: 0px;
+}
+
+#menu ul{
+    background-color: rgb(5, 141, 252);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    list-style-type: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 250px;
+    padding: 0px;
+    
+
+}
+
+#menu li{
+    display: inline-block;
+    margin: 5px;
+
+}
+
+#menu li>a{
+    padding: 8px;
+}
+
+#menu a:hover{
+    background-color: navy;
+    color: blanchedalmond;
+    border-radius: 10px;
+}
+
+#menu a:active{
+    background-color: blanchedalmond;
+    color:navy;
+}
+
+/* body */
+body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/73/Grand_Canyon_of_yellowstone.jpg");
+    background-size: 100%;
+    background-repeat:space;
+    background-color: rgb(64, 146, 253);
+    text-align: center;
+}
+
+img{
+    width: 80%;
+    height: 60%;
+    padding: 1px;
+    border: 2px ridge burlywood;
+    box-sizing:border-box;
+}
+
+h1,h2{
+    background-color: skyblue;
+    margin: auto;
+    padding: 2px;
+    width: 300px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+p{
+    overflow: hidden;
+    margin: auto;
+    width:80%;
+    height: 100px;
+    padding: 8px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+
+.attributions figcaption{
+    background-color: blanchedalmond;
+    margin: 0px 280px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+aside{
+    background-color: #93dcf5;
+    border: 3px ridge rgb(8, 79, 107);
+    position: static;
+    text-align: center;
+    width: 35%;
+    padding: 10px;
+    float: right;
+    margin:1px 10px 10px 10px;
+    box-sizing: border-box;
+
+}
+
+video{
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+audio{
+    max-width: 100%;
+    margin: 20px 1px;
+}
+
+aside figcaption{
+    text-align: center;
+    
+}
+
+section{
+    width: 80%;
+    margin-top: 55px;
+}
+
+section figcaption{
+    text-align: left;
+    margin: auto;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #02455c71;
+    padding: 3px 3px;
+    text-align: center;
+    color: rgb(5, 5, 245);
+    margin-top: 10px;
+    position: static;
+    clear: right;
+}
+
+footer ul{
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+footer a{
+    text-decoration: underline;
+    color: #93dcf5;
+}
+
+footer a:hover{
+    background-color: #93dcf5;
+    padding: 2px;
+    border-radius: 4px;
+    color: #00445a;
+}
+
+footer a:active{
+    color: blanchedalmond;
+}
